@@ -176,4 +176,30 @@ func main() {
     A type switch compares types instead of values.
     */
 
+    // Arrays
+    var n [5]int
+    fmt.Println("emp:", n) // Prints emp: [0 0 0 0 0]
+    /*
+    An array that holds exactly 5 ints. The type of elements and length are both part of the arrays type. By default an array is zero-valued.
+    */
+    n[4] = 100 // Set value at index
+    fmt.Println("set:", a) // prints set: [0 0 0 0 100]
+    fmt.Println("get:", a[4]) // prints get: 100
+
+    fmt.Println("len:", len(a))
+
+    o := [5]int{1, 2, 3, 4, 5} // declare and initialise array in one line
+    fmt.Println("dcl:", o) // Prints [1 2 3 4 5]
+
+    var twoD [2][3]int
+    for p := 0; p < 2; p++ {
+        for q := 0; q < 3; q++ {
+            twoD[o][p] = p + q
+        }
+    }
+    fmt.Println("2d: ", twoD) // Prints 2d:  [[0 1 2] [1 2 3]]
+    /*
+    Arrays are one dimensional but you can compose types to build multidimensional data structures.
+    */
+
 }
