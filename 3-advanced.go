@@ -1,3 +1,11 @@
+// Variadic Functions
+// Anonymous Functions and Closures
+// Recursion
+// Pointers
+// Structs
+// Methods
+// Interfaces
+// Errors
 package main
 
 import (
@@ -44,7 +52,7 @@ func main() {
 
 	// Pointers
 	/*
-	   Points allow you to pass references to values
+	   Pointers allow you to pass references to values
 	*/
 	i := 1
 	fmt.Println("initial:", i) // Prints initial: 1

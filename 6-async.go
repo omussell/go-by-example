@@ -1,3 +1,8 @@
+// Goroutines
+// Channels
+// Channel Buffering
+// Channel Synchronization
+
 package main
 
 import (

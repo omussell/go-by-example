@@ -1,3 +1,8 @@
+// Slices
+// Maps
+// Ranges
+// Functions
+// Multiple Return Values
 package main
 
 import "fmt"
@@ -111,7 +116,7 @@ func main() {
 	} // Prints 0 103 \n 1 111. range on strings iterates over Unicode. First value is the byte index of the rune. Second is the rune itself.
 
 	// Functions
-	functiontest()
+	functionTest()
 
 	// Multiple Return Values
 	multiReturnValues()
@@ -126,7 +131,7 @@ func plusPlus(a, b, c int) int {
 	return a + b + c
 }
 
-func functiontest() {
+func functionTest() {
 	res := plus(1, 2)
 	fmt.Println("1+2 =", res) // prints 1+2 = 3
 

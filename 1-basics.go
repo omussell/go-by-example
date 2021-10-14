@@ -1,4 +1,13 @@
 // Summary of docs from https://gobyexample.com/
+//
+// Imports
+// Constants
+// Values
+// Variables
+// Loops
+// If/Else
+// Switch
+// Arrays
 package main
 
 // import "fmt" // Single import
@@ -181,10 +190,10 @@ func main() {
 	   An array that holds exactly 5 ints. The type of elements and length are both part of the arrays type. By default an array is zero-valued.
 	*/
 	n[4] = 100                // Set value at index. Arrays start at 0.
-	fmt.Println("set:", a)    // prints set: [0 0 0 0 100]
-	fmt.Println("get:", a[4]) // prints get: 100
+	fmt.Println("set:", n)    // prints set: [0 0 0 0 100]
+	fmt.Println("get:", n[4]) // prints get: 100
 
-	fmt.Println("len:", len(a)) // prints len: 5
+	fmt.Println("len:", len(n)) // prints len: 5
 
 	o := [5]int{1, 2, 3, 4, 5} // declare and initialise array in one line
 	fmt.Println("dcl:", o)     // Prints dcl: [1 2 3 4 5]

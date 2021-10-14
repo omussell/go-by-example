@@ -1,3 +1,5 @@
+// Sorting
+// Custom Sorting
 package main
 
 import (
@@ -11,7 +13,7 @@ func main() {
 	/*
 	   Sorting of built in types
 
-	   Sorting is in place, so it chances the given slice and doesnt return a new one
+	   Sorting is in place, so it changes the given slice and doesnt return a new one
 	*/
 	strs := []string{"c", "a", "b"}
 	sort.Strings(strs)
