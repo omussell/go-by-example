@@ -7,7 +7,7 @@ package main
 
 import "fmt"
 
-func main() {
+func beyondBasics() {
 
 	// Slices
 	a := make([]string, 3)

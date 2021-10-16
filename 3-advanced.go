@@ -14,7 +14,7 @@ import (
 	"math"
 )
 
-func main() {
+func advanced() {
 	// Variadic Functions
 	/*
 	   Call functions with any number of trailing

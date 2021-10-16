@@ -7,7 +7,7 @@ import (
 	"sort"
 )
 
-func main() {
+func commonFunctions() {
 
 	// Sorting
 	/*

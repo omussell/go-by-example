@@ -27,7 +27,7 @@ import (
 // Constants
 const s string = "constant"
 
-func main() {
+func basics() {
 	fmt.Println("hello world") // Print string
 
 	// Values
