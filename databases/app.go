@@ -9,9 +9,6 @@ import (
 	"tutorial.sqlc.dev/app/tutorial"
 
 	_ "github.com/lib/pq"
-	// should be using pgx instead for this to work
-	//"github.com/jackc/pgconn"
-	//"github.com/jackc/pgx/v4"
 )
 
 func run() error {
